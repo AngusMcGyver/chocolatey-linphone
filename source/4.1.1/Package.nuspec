@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LinPhone</id>
+    <version>4.1.1</version>
+	<title>LinPhone</title>
+    <authors>LinPhone</authors>
+    <owners>jf-at-redhat</owners>
+	<licenseUrl>https://github.com/BelledonneCommunications/linphone-desktop/blob/master/LICENSE</licenseUrl>
+	<projectUrl>https://github.com/BelledonneCommunications</projectUrl>
+    <iconUrl>http://www.linphone.org/img/linphone-open-source-voip-project-smallX2.png</iconUrl>
+	<bugTrackerUrl>https://github.com/BelledonneCommunications/linphone-desktop/issues</bugTrackerUrl>
+	<docsUrl>http://www.linphone.org/user-guide.html</docsUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Installs LinPhone a Open Source soft phone utility</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright></copyright>
+    <tags>LinPhone soft phone admin</tags>
+	<packageSourceUrl>https://github.com/sofakingdead/Chocolatey_Packages/tree/master/LinP-choco</packageSourceUrl>
+    <dependencies></dependencies>
+  </metadata>
+</package>
