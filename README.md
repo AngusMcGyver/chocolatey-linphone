@@ -13,6 +13,49 @@ Attempting to build package from 'linphone.nuspec'.
 Successfully created package 'C:\repositories\chocolatey-linphone\source\4.3.2\LinPhone.4.3.2.nupkg'
 ```
 
+### how to upload to chocolatey
+
+```
+PS C:\repositories\chocolatey-linphone\source\4.3.1\> choco apikey --key *** --source https://push.chocolatey.org/
+
+
+Chocolatey v0.12.1
+2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+
+Added ApiKey for https://push.chocolatey.org/
+
+
+
+
+PS C:\repositories\chocolatey-linphone\source\4.3.1\> choco push LinPhone.4.3.1.nupkg --source https://push.chocolatey.org/
+
+
+Chocolatey v0.12.1
+2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+
+Attempting to push LinPhone.4.3.1.nupkg to https://push.chocolatey.org/
+LinPhone 4.3.1 was pushed successfully to https://push.chocolatey.org/
+
+Your package will go through automated checks and may be subject to
+human moderation. You should receive email(s) with the automated
+testing results. If you don't receive them within 1-3 business days,
+please use the 'Contact Site Admins' on the package page to contact the
+moderators. If your package is subject to human moderation there is no
+guarantee on the length of time that this can take to complete. This
+depends on the availability of moderators, number of packages in the
+queue at this time, as well as many other factors.
+
+You can check where your package is in the moderation queue here:
+https://ch0.co/moderation
+
+For more information about the moderation process, see the docs:
+https://docs.chocolatey.org/en-us/community-repository/moderation/
+
+Please ensure your registered email address is correct and emails from
+moderation at chocolatey dot org are not being sent to your spam/junk
+folder.
+```
+
 ### how to install from local source
 
 ```
