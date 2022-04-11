@@ -28,7 +28,7 @@ if($LinphoneActive -eq $null) {
 	packageName            = $env:ChocolateyPackageName
 	fileType               = 'EXE'
 	url                    = 'https://download.linphone.org/releases/windows/app/Linphone-4.3.2-win32.exe'
-	checksum               = '680c28a4195a46c04e661ddf9cffc8b587f36570e2e7b08c38f8d7d34e79ae08'
+	checksum               = '1e207bb90b1990bf4fb6da170f044263edf8fe89baea25d64ba17d305d8115f5'
 	checksumType           = 'sha256'
 	silentArgs             = '/S'
 	validExitCodes         = @(0)
