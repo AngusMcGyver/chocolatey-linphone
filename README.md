@@ -1,5 +1,9 @@
 This repository contains a [chocolatey package](https://community.chocolatey.org/packages/LinPhone) for [linphone](https://www.linphone.org/)
 
+### ToDo
+
+* split the duplicated unsinstall code (in `chocolateyinstall.ps1` and `chocolateyuninstall.ps1`) into a helper script file, e.g. `linphone-helpers.ps1`
+
 ### how to build from local source
 
 ```
