@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LinPhone</id>
+    <version>4.4.10</version>
+    <title>LinPhone</title>
+    <authors>LinPhone</authors>
+    <owners>jf-at-redhat,amc</owners>
+    <licenseUrl>https://github.com/BelledonneCommunications/linphone-desktop/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://www.linphone.org/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/BelledonneCommunications/linphone-desktop/4050d0d31fef5ef125c2075423a07711d0624c93/linphone-app/assets/images/linphone_logo.svg</iconUrl>
+    <bugTrackerUrl>https://github.com/BelledonneCommunications/linphone-desktop/issues</bugTrackerUrl>
+    <docsUrl>https://wiki.linphone.org/xwiki/wiki/public/view/Linphone/</docsUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Installs LinPhone a Open Source soft phone utility</description>
+    <releaseNotes>https://github.com/BelledonneCommunications/linphone-desktop/blob/4.4.10/CHANGELOG.md</releaseNotes>
+    <copyright></copyright>
+    <tags>LinPhone soft phone softphone sip sipclient voip</tags>
+    <packageSourceUrl>https://github.com/AngusMcGyver/chocolatey-linphone</packageSourceUrl>
+    <dependencies></dependencies>
+  </metadata>
+</package>
