@@ -3,20 +3,20 @@ This repository contains a [chocolatey package](https://community.chocolatey.org
 ### how to build from local source
 
 ```
-PS C:\repositories\chocolatey-linphone\source\4.3.2\> choco pack .\linphone.nuspec
+PS C:\repositories\chocolatey-linphone\source\> choco pack .\linphone.nuspec
 
 
 Chocolatey v0.12.1
 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
 
 Attempting to build package from 'linphone.nuspec'.
-Successfully created package 'C:\repositories\chocolatey-linphone\source\4.3.2\LinPhone.4.3.2.nupkg'
+Successfully created package 'C:\repositories\chocolatey-linphone\source\LinPhone.4.3.2.nupkg'
 ```
 
 ### how to upload to chocolatey
 
 ```
-PS C:\repositories\chocolatey-linphone\source\4.3.1\> choco apikey --key *** --source https://push.chocolatey.org/
+PS C:\repositories\chocolatey-linphone\source\> choco apikey --key *** --source https://push.chocolatey.org/
 
 
 Chocolatey v0.12.1
@@ -27,7 +27,7 @@ Added ApiKey for https://push.chocolatey.org/
 
 
 
-PS C:\repositories\chocolatey-linphone\source\4.3.1\> choco push LinPhone.4.3.1.nupkg --source https://push.chocolatey.org/
+PS C:\repositories\chocolatey-linphone\source\> choco push LinPhone.4.3.1.nupkg --source https://push.chocolatey.org/
 
 
 Chocolatey v0.12.1
@@ -59,7 +59,7 @@ folder.
 ### how to install from local source
 
 ```
-PS C:\repositories\chocolatey-linphone\source\4.3.1\> choco install .\LinPhone.4.3.1.nupkg
+PS C:\repositories\chocolatey-linphone\source\> choco install .\LinPhone.4.3.1.nupkg
 
 
 The use of .nupkg or .nuspec in for package name or source is known to cause issues. Please use the package id from the nuspec `<id />` with `-s .` (for local folder where nupkg is found).
@@ -96,7 +96,7 @@ Chocolatey installed 1/1 packages.
 ### how to upgrade from local source
 
 ```
-PS C:\repositories\chocolatey-linphone\source\4.3.2\> choco upgrade .\LinPhone.4.3.2.nupkg
+PS C:\repositories\chocolatey-linphone\source\> choco upgrade .\LinPhone.4.3.2.nupkg
 
 
 The use of .nupkg or .nuspec in for package name or source is known to cause issues. Please use the package id from the nuspec `<id />` with `-s .` (for local folder where nupkg is found).
@@ -121,7 +121,7 @@ Uninstalling LinPhone...
 LinPhone has been uninstalled.
 Downloading LinPhone
   from 'https://download.linphone.org/releases/windows/app/Linphone-4.3.2-win32.exe'
-Progress: 100% - Completed download of C:\Users\user\AppData\Local\Temp\chocolatey\LinPhone\4.3.2\Linphone-4.3.2-win32.exe (57.88 MB).
+Progress: 100% - Completed download of C:\Users\user\AppData\Local\Temp\chocolatey\LinPhone\Linphone-4.3.2-win32.exe (57.88 MB).
 Download of Linphone-4.3.2-win32.exe (57.88 MB) completed.
 Hashes match.
 Installing LinPhone...
@@ -137,7 +137,7 @@ Chocolatey upgraded 1/1 packages.
 ### how to uninstall
 
 ```
-PS C:\repositories\chocolatey-linphone\source\4.3.2\> choco uninstall linphone
+PS C:\repositories\chocolatey-linphone\source\> choco uninstall linphone
 
 
 Chocolatey v0.12.1
