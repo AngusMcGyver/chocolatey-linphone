@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>LinPhone</id>
-    <version>5.3.1</version>
+    <version>5.3.2</version>
     <title>LinPhone</title>
     <authors>LinPhone</authors>
     <owners>jf-at-redhat,amc</owners>
@@ -13,7 +13,7 @@
     <docsUrl>https://wiki.linphone.org/xwiki/wiki/public/view/Linphone/</docsUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Installs LinPhone a Open Source soft phone utility</description>
-    <releaseNotes>https://github.com/BelledonneCommunications/linphone-desktop/blob/5.3.1/CHANGELOG.md</releaseNotes>
+    <releaseNotes>https://github.com/BelledonneCommunications/linphone-desktop/blob/5.3.2/CHANGELOG.md</releaseNotes>
     <copyright></copyright>
     <tags>LinPhone soft phone softphone sip sipclient voip</tags>
     <packageSourceUrl>https://github.com/AngusMcGyver/chocolatey-linphone</packageSourceUrl>

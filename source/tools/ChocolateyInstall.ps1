@@ -12,8 +12,8 @@ if($LinphoneActive -eq $null) {
 	$packageArgsInstall = @{
 		packageName            = $env:ChocolateyPackageName
 		fileType               = 'EXE'
-		url                    = 'https://download.linphone.org/releases/windows/app/Linphone-5.3.1-win64.exe'
-		checksum               = '082152c301d92a3d463142b84f1e50e3d391f92aa03e71fe2f09d90e3cbe5596'
+		url                    = 'https://download.linphone.org/releases/windows/app/Linphone-5.3.2-win64.exe'
+		checksum               = 'b8bc6ecc15069fa79114fb6cd0990c499d789d6230f79ad0530f6516c00de8a1'
   		checksumType           = 'sha256'
 		silentArgs             = '/S'
 		validExitCodes         = @(0)
