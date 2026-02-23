@@ -59,10 +59,9 @@ folder.
 ### how to install from local source
 
 ```
-PS C:\repositories\chocolatey-linphone\source\> choco install .\LinPhone.4.3.1.nupkg
+PS C:\repositories\chocolatey-linphone\source\> choco install linphone --source=".\"
 
 
-The use of .nupkg or .nuspec in for package name or source is known to cause issues. Please use the package id from the nuspec `<id />` with `-s .` (for local folder where nupkg is found).
 Chocolatey v0.12.1
 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
 
@@ -96,10 +95,9 @@ Chocolatey installed 1/1 packages.
 ### how to upgrade from local source
 
 ```
-PS C:\repositories\chocolatey-linphone\source\> choco upgrade .\LinPhone.4.3.2.nupkg
+PS C:\repositories\chocolatey-linphone\source\> choco upgrade linphone --version="4.3.2" --source=".\"
 
 
-The use of .nupkg or .nuspec in for package name or source is known to cause issues. Please use the package id from the nuspec `<id />` with `-s .` (for local folder where nupkg is found).
 Chocolatey v0.12.1
 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
 
